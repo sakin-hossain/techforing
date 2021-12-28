@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Frontend Developer",
+    "vacancies": 3,
+    "shift": "Day",
+    "type": "Full-Time",
+    "salary": "Negotiable",
+    "postDate": "12/25/2021",
+    "expireDate": "1/5/2022",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "Full Stack Developer",
+    "vacancies": 1,
+    "shift": "Day",
+    "type": "Full-Time",
+    "salary": "Upto 35k",
+    "postDate": "12/26/2021",
+    "expireDate": "1/5/2022",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "name": "Backend Developer",
+    "vacancies": 2,
+    "shift": "Day",
+    "type": "Part-Time",
+    "salary": "Negotiable",
+    "postDate": "12/27/2021",
+    "expireDate": "1/6/2022",
+    "status": "active"
+  },
+  {
+    "id": 4,
+    "name": "MERN Stack Developer",
+    "vacancies": 3,
+    "shift": "Night",
+    "type": "Freelancer",
+    "salary": "Negotiable",
+    "postDate": "12/25/2021",
+    "expireDate": "1/5/2022",
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "name": "React Developer",
+    "vacancies": 3,
+    "shift": "Day",
+    "type": "Full-Time",
+    "salary": "Negotiable",
+    "postDate": "12/25/2021",
+    "expireDate": "1/5/2022",
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "name": "Node.js Developer",
+    "vacancies": 1,
+    "shift": "Day",
+    "type": "Full-Time",
+    "salary": "Negotiable",
+    "postDate": "12/25/2021",
+    "expireDate": "1/5/2022",
+    "status": "active"
+  }
+]
