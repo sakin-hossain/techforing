@@ -1,6 +1,5 @@
 [
   {
-    "id": 1,
     "name": "Frontend Developer",
     "vacancies": 3,
     "shift": "Day",
@@ -11,7 +10,6 @@
     "status": "active"
   },
   {
-    "id": 2,
     "name": "Full Stack Developer",
     "vacancies": 1,
     "shift": "Day",
@@ -22,7 +20,6 @@
     "status": "active"
   },
   {
-    "id": 3,
     "name": "Backend Developer",
     "vacancies": 2,
     "shift": "Day",
@@ -33,7 +30,6 @@
     "status": "active"
   },
   {
-    "id": 4,
     "name": "MERN Stack Developer",
     "vacancies": 3,
     "shift": "Night",
@@ -44,7 +40,6 @@
     "status": "active"
   },
   {
-    "id": 5,
     "name": "React Developer",
     "vacancies": 3,
     "shift": "Day",
@@ -55,7 +50,6 @@
     "status": "active"
   },
   {
-    "id": 6,
     "name": "Node.js Developer",
     "vacancies": 1,
     "shift": "Day",

@@ -1,19 +1,23 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import AuthProvider from './Context/AuthProvider';
+import Auth from './Pages/Auth/Auth';
+import CreateJobs from './Pages/Home/CreateJobs/CreateJobs';
 import Home from './Pages/Home/Home';
-import Header from './Pages/Shared/Header/Header';
-import SideMenu from './Pages/Shared/SideMenu/SideMenu';
+import PrivateRoute from './Pages/Shared/PrivateRoute/PrivateRoute';
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-      <Header/>
-      <SideMenu/>
-        <Routes>
-          <Route path="/" element={<Home/>} />
-        </Routes>
-      </BrowserRouter>
+    <div>
+      <AuthProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<PrivateRoute><Home/></PrivateRoute>} />
+            <Route path="/createJobs" element={<PrivateRoute><CreateJobs/></PrivateRoute>} />
+            <Route path="/login" element={<Auth/>} />
+          </Routes>
+        </BrowserRouter>
+      </AuthProvider>
     </div>
   );
 }
